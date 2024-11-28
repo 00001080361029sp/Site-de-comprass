@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <!-- Cabeçalho da página -->
+    <!-- Cabeçalho -->
     <header>
         <div class="logo">
             <h1>Minha Loja</h1>
@@ -17,31 +17,35 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Produtos</a></li>
+                <li><a href="carrinho.html">Carrinho</a></li>
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Seção principal com os produtos -->
+    <!-- Produtos -->
     <main>
         <section class="produtos">
-            <div class="produto">
+            <div class="produto" data-id="1">
                 <img src="https://via.placeholder.com/200" alt="Produto 1">
                 <h2>Produto 1</h2>
                 <p>R$ 99,99</p>
                 <button class="comprar">Comprar</button>
+                <a href="produto.html?id=1" class="detalhes">Ver Detalhes</a>
             </div>
-            <div class="produto">
+            <div class="produto" data-id="2">
                 <img src="https://via.placeholder.com/200" alt="Produto 2">
                 <h2>Produto 2</h2>
                 <p>R$ 129,99</p>
                 <button class="comprar">Comprar</button>
+                <a href="produto.html?id=2" class="detalhes">Ver Detalhes</a>
             </div>
-            <div class="produto">
+            <div class="produto" data-id="3">
                 <img src="https://via.placeholder.com/200" alt="Produto 3">
                 <h2>Produto 3</h2>
                 <p>R$ 79,99</p>
                 <button class="comprar">Comprar</button>
+                <a href="produto.html?id=3" class="detalhes">Ver Detalhes</a>
             </div>
         </section>
     </main>
